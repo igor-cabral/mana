@@ -1,0 +1,467 @@
+{
+  "id": "27fvjlog79g",
+  "v": 1,
+  "createdAt": 1793464487620,
+  "updatedAt": 1793465753694,
+  "name": "Maná Gastronomia",
+  "slogan": "Gastronomia Local.",
+  "logo": "assets/logo.webp",
+  "hero": "assets/hero.webp",
+  "theme": {
+    "fontHeading": "Poppins",
+    "fontBody": "Poppins",
+    "layout": "grid",
+    "heroOverlay": 59,
+    "radius": 20,
+    "primary": "#d62828",
+    "bg": "#fff8f1",
+    "surface": "#ffffff",
+    "text": "#2b2118"
+  },
+  "contact": {
+    "whatsapp": "47996603119",
+    "instagram": "@igorlcabral",
+    "phone": "",
+    "address": "Rua das Flores, 123 - Cidade da Alegria",
+    "mapsUrl": "",
+    "hours": "Segunda - Fechado\nTerça a Sábado - 18h as 22h\nDomingos - 16h às 23h"
+  },
+  "options": {
+    "showSearch": true,
+    "orderButton": true,
+    "itemOrderButton": false,
+    "orderMessage": "Olá! Gostaria de fazer um pedido:",
+    "notice": "",
+    "footerText": "",
+    "creditText": "Desenvolvido por Igor Cabral",
+    "creditUrl": "igorcabral.dev.br",
+    "seoDescription": "",
+    "siteUrl": "",
+    "domain": ""
+  },
+  "categories": [
+    {
+      "id": "kazl53ps1i7",
+      "name": "Entradas",
+      "description": "",
+      "items": [
+        {
+          "id": "wumuj1is1i7",
+          "name": "Batata Frita",
+          "description": "Porção de batatas crocantes e sequinhas.",
+          "price": "R$ 22,00",
+          "image": "assets/produtos/batata-frita.webp",
+          "featured": false,
+          "soldOut": false,
+          "hidden": false,
+          "variants": []
+        },
+        {
+          "id": "x7j5z5us1i7",
+          "name": "Polenta Frita",
+          "description": "Porção de polenta dourada e crocante.",
+          "price": "R$ 20,00",
+          "image": "assets/produtos/polenta-frita.webp",
+          "featured": false,
+          "soldOut": false,
+          "hidden": false,
+          "variants": []
+        },
+        {
+          "id": "kpbfyxps1i7",
+          "name": "Iscas de Frango",
+          "description": "Tiras de frango empanadas, acompanhadas de molho especial.",
+          "price": "R$ 29,90",
+          "image": "assets/produtos/iscas-de-frango.webp",
+          "featured": false,
+          "soldOut": false,
+          "hidden": false,
+          "variants": []
+        },
+        {
+          "id": "vdos2ops1i7",
+          "name": "Bolinho de Queijo",
+          "description": "Porção com 8 unidades recheadas com queijo.",
+          "price": "R$ 24,00",
+          "image": "assets/produtos/bolinho-de-queijo.webp",
+          "featured": false,
+          "soldOut": false,
+          "hidden": false,
+          "variants": []
+        }
+      ]
+    },
+    {
+      "id": "h0wdu3ms1i7",
+      "name": "Pratos Executivos",
+      "description": "",
+      "items": [
+        {
+          "id": "h5tsfpms1i7",
+          "name": "Filé de Frango Grelhado",
+          "description": "Filé de frango grelhado, arroz, feijão, fritas e salada.",
+          "price": "R$ 29,90",
+          "image": "assets/produtos/file-de-frango-grelhado.webp",
+          "featured": false,
+          "soldOut": false,
+          "hidden": false,
+          "variants": []
+        },
+        {
+          "id": "7wvkx83s1i7",
+          "name": "Bife Acebolado",
+          "description": "Bife bovino com cebola, arroz, feijão, fritas e salada.",
+          "price": "R$ 34,90",
+          "image": "assets/produtos/bife-acebolado.webp",
+          "featured": false,
+          "soldOut": false,
+          "hidden": false,
+          "variants": []
+        },
+        {
+          "id": "hk8b6vis1i7",
+          "name": "Frango à Parmegiana",
+          "description": "Filé de frango empanado, molho de tomate e queijo, acompanhado de arroz e fritas.",
+          "price": "R$ 36,90",
+          "image": "assets/produtos/frango-a-parmegiana.webp",
+          "featured": false,
+          "soldOut": false,
+          "hidden": false,
+          "variants": []
+        },
+        {
+          "id": "th4cb7es1i7",
+          "name": "Strogonoff de Frango",
+          "description": "Cubos de frango ao molho cremoso, arroz e batata palha.",
+          "price": "R$ 32,90",
+          "image": "assets/produtos/strogonoff-de-frango.webp",
+          "featured": false,
+          "soldOut": false,
+          "hidden": false,
+          "variants": []
+        },
+        {
+          "id": "mqfm7wzs1i7",
+          "name": "Lasanha à Bolonhesa",
+          "description": "Massa artesanal, molho bolonhesa e queijo gratinado.",
+          "price": "R$ 35,90",
+          "image": "assets/produtos/lasanha-a-bolonhesa.webp",
+          "featured": false,
+          "soldOut": false,
+          "hidden": false,
+          "variants": []
+        }
+      ]
+    },
+    {
+      "id": "ly4q539s1i7",
+      "name": "Hambúrgueres",
+      "description": "",
+      "items": [
+        {
+          "id": "gdg0im2s1i7",
+          "name": "X-Burger",
+          "description": "Hambúrguer artesanal, queijo, alface, tomate e molho da casa.",
+          "price": "R$ 25,90",
+          "image": "assets/produtos/x-burger.webp",
+          "featured": false,
+          "soldOut": false,
+          "hidden": false,
+          "variants": []
+        },
+        {
+          "id": "u2t77tls1i7",
+          "name": "X-Salada",
+          "description": "Hambúrguer, queijo, alface, tomate, milho e maionese especial.",
+          "price": "R$ 28,90",
+          "image": "assets/produtos/x-salada.webp",
+          "featured": false,
+          "soldOut": false,
+          "hidden": false,
+          "variants": []
+        },
+        {
+          "id": "zmcqirrs1i7",
+          "name": "X-Bacon",
+          "description": "Hambúrguer, queijo, bacon crocante, alface e molho especial.",
+          "price": "R$ 32,90",
+          "image": "assets/produtos/x-bacon.webp",
+          "featured": false,
+          "soldOut": false,
+          "hidden": false,
+          "variants": []
+        },
+        {
+          "id": "vt62zdps1i7",
+          "name": "X-Tudo",
+          "description": "Hambúrguer, queijo, presunto, bacon, ovo, alface, tomate e molho da casa.",
+          "price": "R$ 36,90",
+          "image": "assets/produtos/x-tudo.webp",
+          "featured": false,
+          "soldOut": false,
+          "hidden": false,
+          "variants": []
+        },
+        {
+          "id": "ati301ms1i7",
+          "name": "Cheeseburger Duplo",
+          "description": "Dois hambúrgueres, queijo duplo e molho especial.",
+          "price": "R$ 38,90",
+          "image": "assets/produtos/cheeseburger-duplo.webp",
+          "featured": false,
+          "soldOut": false,
+          "hidden": false,
+          "variants": []
+        }
+      ]
+    },
+    {
+      "id": "0c02w1gs1i7",
+      "name": "Pizzas",
+      "description": "",
+      "items": [
+        {
+          "id": "cyke1m9s1i7",
+          "name": "Pizza Mussarela",
+          "description": "Molho de tomate, mussarela e orégano.",
+          "price": "R$ 45,00",
+          "image": "assets/produtos/pizza-mussarela.webp",
+          "featured": false,
+          "soldOut": false,
+          "hidden": false,
+          "variants": []
+        },
+        {
+          "id": "4py7dmrs1i7",
+          "name": "Pizza Calabresa",
+          "description": "Molho de tomate, calabresa, cebola e mussarela.",
+          "price": "R$ 49,00",
+          "image": "assets/produtos/pizza-mussarela.webp",
+          "featured": false,
+          "soldOut": false,
+          "hidden": false,
+          "variants": []
+        },
+        {
+          "id": "ijlt401s1i7",
+          "name": "Pizza Frango com Catupiry",
+          "description": "Frango desfiado, catupiry e mussarela.",
+          "price": "R$ 52,00",
+          "image": "assets/produtos/pizza-frango-com-catupiry.webp",
+          "featured": false,
+          "soldOut": false,
+          "hidden": false,
+          "variants": []
+        },
+        {
+          "id": "m08ia48s1i7",
+          "name": "Pizza Portuguesa",
+          "description": "Presunto, ovos, cebola, ervilha, mussarela e azeitonas.",
+          "price": "R$ 54,00",
+          "image": "assets/produtos/pizza-portuguesa.webp",
+          "featured": false,
+          "soldOut": false,
+          "hidden": false,
+          "variants": []
+        },
+        {
+          "id": "d299bsws1i7",
+          "name": "Pizza Quatro Queijos",
+          "description": "Mussarela, provolone, parmesão e gorgonzola.",
+          "price": "R$ 56,00",
+          "image": "assets/produtos/pizza-frango-com-catupiry.webp",
+          "featured": false,
+          "soldOut": false,
+          "hidden": false,
+          "variants": []
+        }
+      ]
+    },
+    {
+      "id": "hjh70w5s1i7",
+      "name": "Porções",
+      "description": "",
+      "items": [
+        {
+          "id": "fmmq3nds1i7",
+          "name": "Frango à Passarinho",
+          "description": "Porção de frango temperado e frito com alho.",
+          "price": "R$ 39,90",
+          "image": "assets/produtos/frango-a-passarinho.webp",
+          "featured": false,
+          "soldOut": false,
+          "hidden": false,
+          "variants": []
+        },
+        {
+          "id": "2qv1djvs1i7",
+          "name": "Calabresa Acebolada",
+          "description": "Calabresa grelhada com cebola e pão fatiado.",
+          "price": "R$ 34,90",
+          "image": "assets/produtos/calabresa-acebolada.webp",
+          "featured": false,
+          "soldOut": false,
+          "hidden": false,
+          "variants": []
+        },
+        {
+          "id": "33r43g4s1i7",
+          "name": "Mandioca Frita",
+          "description": "Porção de mandioca macia por dentro e crocante por fora.",
+          "price": "R$ 24,90",
+          "image": "assets/produtos/mandioca-frita.webp",
+          "featured": false,
+          "soldOut": false,
+          "hidden": false,
+          "variants": []
+        },
+        {
+          "id": "c4vratqs1i7",
+          "name": "Combo da Casa",
+          "description": "Batata frita, calabresa, frango à passarinho e molhos.",
+          "price": "R$ 59,90",
+          "image": "assets/produtos/combo-da-casa.webp",
+          "featured": false,
+          "soldOut": false,
+          "hidden": false,
+          "variants": []
+        }
+      ]
+    },
+    {
+      "id": "gfhsh4es1i7",
+      "name": "Sobremesas",
+      "description": "",
+      "items": [
+        {
+          "id": "lu0s3yos1i7",
+          "name": "Pudim de Leite",
+          "description": "Pudim tradicional com calda de caramelo.",
+          "price": "R$ 10,00",
+          "image": "assets/produtos/pudim-de-leite.webp",
+          "featured": false,
+          "soldOut": false,
+          "hidden": false,
+          "variants": []
+        },
+        {
+          "id": "ifyk1pms1i7",
+          "name": "Brownie com Sorvete",
+          "description": "Brownie de chocolate servido com sorvete de creme.",
+          "price": "R$ 18,90",
+          "image": "assets/produtos/brownie-com-sorvete.webp",
+          "featured": false,
+          "soldOut": false,
+          "hidden": false,
+          "variants": []
+        },
+        {
+          "id": "rvqmr9as1i7",
+          "name": "Mousse de Maracujá",
+          "description": "Sobremesa cremosa com toque de maracujá.",
+          "price": "R$ 12,00",
+          "image": "assets/produtos/mousse-de-maracuja.webp",
+          "featured": false,
+          "soldOut": false,
+          "hidden": false,
+          "variants": []
+        }
+      ]
+    },
+    {
+      "id": "1dqoqe9s1i7",
+      "name": "Bebidas",
+      "description": "",
+      "items": [
+        {
+          "id": "keta3qzs1i7",
+          "name": "Água Mineral 500ml",
+          "description": "",
+          "price": "R$ 4,00",
+          "image": null,
+          "featured": false,
+          "soldOut": false,
+          "hidden": false,
+          "variants": []
+        },
+        {
+          "id": "nhtmdtws1i7",
+          "name": "Água com Gás 500ml",
+          "description": "",
+          "price": "R$ 5,00",
+          "image": null,
+          "featured": false,
+          "soldOut": false,
+          "hidden": false,
+          "variants": []
+        },
+        {
+          "id": "zreqlrws1i7",
+          "name": "Refrigerante Lata 350ml",
+          "description": "",
+          "price": "R$ 6,00",
+          "image": null,
+          "featured": false,
+          "soldOut": false,
+          "hidden": false,
+          "variants": []
+        },
+        {
+          "id": "9hspi13s1i7",
+          "name": "Refrigerante 600ml",
+          "description": "",
+          "price": "R$ 9,00",
+          "image": null,
+          "featured": false,
+          "soldOut": false,
+          "hidden": false,
+          "variants": []
+        },
+        {
+          "id": "glsu24ss1i7",
+          "name": "Suco Natural 300ml",
+          "description": "",
+          "price": "R$ 8,00",
+          "image": null,
+          "featured": false,
+          "soldOut": false,
+          "hidden": false,
+          "variants": []
+        },
+        {
+          "id": "n9poqprs1i7",
+          "name": "Suco Natural 500ml",
+          "description": "",
+          "price": "R$ 12,00",
+          "image": null,
+          "featured": false,
+          "soldOut": false,
+          "hidden": false,
+          "variants": []
+        },
+        {
+          "id": "06szvpks1i7",
+          "name": "Chá Gelado 300ml",
+          "description": "",
+          "price": "R$ 7,00",
+          "image": null,
+          "featured": false,
+          "soldOut": false,
+          "hidden": false,
+          "variants": []
+        },
+        {
+          "id": "78d4goos1i7",
+          "name": "Café Expresso",
+          "description": "",
+          "price": "R$ 5,00",
+          "image": null,
+          "featured": false,
+          "soldOut": false,
+          "hidden": false,
+          "variants": []
+        }
+      ]
+    }
+  ]
+}
