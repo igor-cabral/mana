@@ -2,7 +2,8 @@
   "id": "27fvjlog79g",
   "v": 1,
   "createdAt": 1793464487620,
-  "updatedAt": 1793465753694,
+  "updatedAt": 1793635241198,
+  "folder": "",
   "name": "Maná Gastronomia",
   "slogan": "Gastronomia Local.",
   "logo": "assets/logo.webp",
@@ -11,12 +12,15 @@
     "fontHeading": "Poppins",
     "fontBody": "Poppins",
     "layout": "grid",
+    "header": "center",
+    "cardStyle": "border",
+    "catStyle": "plain",
     "heroOverlay": 59,
     "radius": 20,
-    "primary": "#d62828",
-    "bg": "#fff8f1",
-    "surface": "#ffffff",
-    "text": "#2b2118"
+    "primary": "#f4a261",
+    "bg": "#14110f",
+    "surface": "#1f1b18",
+    "text": "#f5efe8"
   },
   "contact": {
     "whatsapp": "47996603119",
@@ -24,20 +28,69 @@
     "phone": "",
     "address": "Rua das Flores, 123 - Cidade da Alegria",
     "mapsUrl": "",
-    "hours": "Segunda - Fechado\nTerça a Sábado - 18h as 22h\nDomingos - 16h às 23h"
+    "hours": "Segunda - Fechado\nTerça a Sábado - 18h as 22h\nDomingos - 16h às 23h",
+    "tz": "America/Sao_Paulo",
+    "schedule": [
+      {
+        "open": false,
+        "from": "18:00",
+        "to": "23:00"
+      },
+      {
+        "open": false,
+        "from": "18:00",
+        "to": "23:00"
+      },
+      {
+        "open": false,
+        "from": "18:00",
+        "to": "23:00"
+      },
+      {
+        "open": false,
+        "from": "18:00",
+        "to": "23:00"
+      },
+      {
+        "open": false,
+        "from": "18:00",
+        "to": "23:00"
+      },
+      {
+        "open": false,
+        "from": "18:00",
+        "to": "23:00"
+      },
+      {
+        "open": false,
+        "from": "18:00",
+        "to": "23:00"
+      }
+    ]
   },
   "options": {
     "showSearch": true,
+    "showOpenStatus": true,
+    "cartEnabled": true,
+    "typeDelivery": true,
+    "typePickup": true,
+    "typeDinein": false,
+    "deliveryFee": "",
+    "minOrder": "",
+    "payments": "Pix, Cartão, Dinheiro",
     "orderButton": true,
     "itemOrderButton": false,
     "orderMessage": "Olá! Gostaria de fazer um pedido:",
     "notice": "",
     "footerText": "",
     "creditText": "Desenvolvido por Igor Cabral",
-    "creditUrl": "igorcabral.dev.br",
+    "creditUrl": "https://igorcabral.dev.br",
     "seoDescription": "",
     "siteUrl": "",
-    "domain": ""
+    "domain": "",
+    "plataforma": {
+      "slug": ""
+    }
   },
   "categories": [
     {
@@ -51,10 +104,25 @@
           "description": "Porção de batatas crocantes e sequinhas.",
           "price": "R$ 22,00",
           "image": "assets/produtos/batata-frita.webp",
-          "featured": false,
+          "featured": true,
           "soldOut": false,
           "hidden": false,
-          "variants": []
+          "variants": [
+            {
+              "label": "Pequena",
+              "price": "22"
+            },
+            {
+              "label": "Média",
+              "price": "30"
+            },
+            {
+              "label": "Grande",
+              "price": "35"
+            }
+          ],
+          "addons": [],
+          "tags": []
         },
         {
           "id": "x7j5z5us1i7",
@@ -65,7 +133,9 @@
           "featured": false,
           "soldOut": false,
           "hidden": false,
-          "variants": []
+          "variants": [],
+          "addons": [],
+          "tags": []
         },
         {
           "id": "kpbfyxps1i7",
@@ -76,7 +146,9 @@
           "featured": false,
           "soldOut": false,
           "hidden": false,
-          "variants": []
+          "variants": [],
+          "addons": [],
+          "tags": []
         },
         {
           "id": "vdos2ops1i7",
@@ -87,7 +159,9 @@
           "featured": false,
           "soldOut": false,
           "hidden": false,
-          "variants": []
+          "variants": [],
+          "addons": [],
+          "tags": []
         }
       ]
     },
@@ -105,7 +179,9 @@
           "featured": false,
           "soldOut": false,
           "hidden": false,
-          "variants": []
+          "variants": [],
+          "addons": [],
+          "tags": []
         },
         {
           "id": "7wvkx83s1i7",
@@ -116,7 +192,9 @@
           "featured": false,
           "soldOut": false,
           "hidden": false,
-          "variants": []
+          "variants": [],
+          "addons": [],
+          "tags": []
         },
         {
           "id": "hk8b6vis1i7",
@@ -127,7 +205,9 @@
           "featured": false,
           "soldOut": false,
           "hidden": false,
-          "variants": []
+          "variants": [],
+          "addons": [],
+          "tags": []
         },
         {
           "id": "th4cb7es1i7",
@@ -138,7 +218,9 @@
           "featured": false,
           "soldOut": false,
           "hidden": false,
-          "variants": []
+          "variants": [],
+          "addons": [],
+          "tags": []
         },
         {
           "id": "mqfm7wzs1i7",
@@ -149,7 +231,9 @@
           "featured": false,
           "soldOut": false,
           "hidden": false,
-          "variants": []
+          "variants": [],
+          "addons": [],
+          "tags": []
         }
       ]
     },
@@ -167,7 +251,9 @@
           "featured": false,
           "soldOut": false,
           "hidden": false,
-          "variants": []
+          "variants": [],
+          "addons": [],
+          "tags": []
         },
         {
           "id": "u2t77tls1i7",
@@ -178,7 +264,9 @@
           "featured": false,
           "soldOut": false,
           "hidden": false,
-          "variants": []
+          "variants": [],
+          "addons": [],
+          "tags": []
         },
         {
           "id": "zmcqirrs1i7",
@@ -189,7 +277,9 @@
           "featured": false,
           "soldOut": false,
           "hidden": false,
-          "variants": []
+          "variants": [],
+          "addons": [],
+          "tags": []
         },
         {
           "id": "vt62zdps1i7",
@@ -200,7 +290,9 @@
           "featured": false,
           "soldOut": false,
           "hidden": false,
-          "variants": []
+          "variants": [],
+          "addons": [],
+          "tags": []
         },
         {
           "id": "ati301ms1i7",
@@ -211,7 +303,9 @@
           "featured": false,
           "soldOut": false,
           "hidden": false,
-          "variants": []
+          "variants": [],
+          "addons": [],
+          "tags": []
         }
       ]
     },
@@ -229,7 +323,9 @@
           "featured": false,
           "soldOut": false,
           "hidden": false,
-          "variants": []
+          "variants": [],
+          "addons": [],
+          "tags": []
         },
         {
           "id": "4py7dmrs1i7",
@@ -240,7 +336,9 @@
           "featured": false,
           "soldOut": false,
           "hidden": false,
-          "variants": []
+          "variants": [],
+          "addons": [],
+          "tags": []
         },
         {
           "id": "ijlt401s1i7",
@@ -251,7 +349,9 @@
           "featured": false,
           "soldOut": false,
           "hidden": false,
-          "variants": []
+          "variants": [],
+          "addons": [],
+          "tags": []
         },
         {
           "id": "m08ia48s1i7",
@@ -262,7 +362,9 @@
           "featured": false,
           "soldOut": false,
           "hidden": false,
-          "variants": []
+          "variants": [],
+          "addons": [],
+          "tags": []
         },
         {
           "id": "d299bsws1i7",
@@ -273,7 +375,9 @@
           "featured": false,
           "soldOut": false,
           "hidden": false,
-          "variants": []
+          "variants": [],
+          "addons": [],
+          "tags": []
         }
       ]
     },
@@ -291,7 +395,9 @@
           "featured": false,
           "soldOut": false,
           "hidden": false,
-          "variants": []
+          "variants": [],
+          "addons": [],
+          "tags": []
         },
         {
           "id": "2qv1djvs1i7",
@@ -302,7 +408,9 @@
           "featured": false,
           "soldOut": false,
           "hidden": false,
-          "variants": []
+          "variants": [],
+          "addons": [],
+          "tags": []
         },
         {
           "id": "33r43g4s1i7",
@@ -313,7 +421,9 @@
           "featured": false,
           "soldOut": false,
           "hidden": false,
-          "variants": []
+          "variants": [],
+          "addons": [],
+          "tags": []
         },
         {
           "id": "c4vratqs1i7",
@@ -321,10 +431,12 @@
           "description": "Batata frita, calabresa, frango à passarinho e molhos.",
           "price": "R$ 59,90",
           "image": "assets/produtos/combo-da-casa.webp",
-          "featured": false,
+          "featured": true,
           "soldOut": false,
           "hidden": false,
-          "variants": []
+          "variants": [],
+          "addons": [],
+          "tags": []
         }
       ]
     },
@@ -342,7 +454,9 @@
           "featured": false,
           "soldOut": false,
           "hidden": false,
-          "variants": []
+          "variants": [],
+          "addons": [],
+          "tags": []
         },
         {
           "id": "ifyk1pms1i7",
@@ -353,7 +467,9 @@
           "featured": false,
           "soldOut": false,
           "hidden": false,
-          "variants": []
+          "variants": [],
+          "addons": [],
+          "tags": []
         },
         {
           "id": "rvqmr9as1i7",
@@ -364,7 +480,9 @@
           "featured": false,
           "soldOut": false,
           "hidden": false,
-          "variants": []
+          "variants": [],
+          "addons": [],
+          "tags": []
         }
       ]
     },
@@ -382,7 +500,9 @@
           "featured": false,
           "soldOut": false,
           "hidden": false,
-          "variants": []
+          "variants": [],
+          "addons": [],
+          "tags": []
         },
         {
           "id": "nhtmdtws1i7",
@@ -393,7 +513,9 @@
           "featured": false,
           "soldOut": false,
           "hidden": false,
-          "variants": []
+          "variants": [],
+          "addons": [],
+          "tags": []
         },
         {
           "id": "zreqlrws1i7",
@@ -404,7 +526,9 @@
           "featured": false,
           "soldOut": false,
           "hidden": false,
-          "variants": []
+          "variants": [],
+          "addons": [],
+          "tags": []
         },
         {
           "id": "9hspi13s1i7",
@@ -415,7 +539,9 @@
           "featured": false,
           "soldOut": false,
           "hidden": false,
-          "variants": []
+          "variants": [],
+          "addons": [],
+          "tags": []
         },
         {
           "id": "glsu24ss1i7",
@@ -426,7 +552,9 @@
           "featured": false,
           "soldOut": false,
           "hidden": false,
-          "variants": []
+          "variants": [],
+          "addons": [],
+          "tags": []
         },
         {
           "id": "n9poqprs1i7",
@@ -437,7 +565,9 @@
           "featured": false,
           "soldOut": false,
           "hidden": false,
-          "variants": []
+          "variants": [],
+          "addons": [],
+          "tags": []
         },
         {
           "id": "06szvpks1i7",
@@ -448,7 +578,9 @@
           "featured": false,
           "soldOut": false,
           "hidden": false,
-          "variants": []
+          "variants": [],
+          "addons": [],
+          "tags": []
         },
         {
           "id": "78d4goos1i7",
@@ -459,7 +591,9 @@
           "featured": false,
           "soldOut": false,
           "hidden": false,
-          "variants": []
+          "variants": [],
+          "addons": [],
+          "tags": []
         }
       ]
     }
